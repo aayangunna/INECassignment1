@@ -17,7 +17,7 @@ namespace INECassignment
             string[] inecArray = { "Messi", "Benzema", "Neymar", "Lewandoski", "Mane", "Neymar", "Messi", "Mane", "Messi", "Mabappe" };
 
 
-
+             // Using foreach loop to access the names of the SortedList.
             foreach (var name in inecArray)
             {
                 int count = 0;
@@ -39,6 +39,7 @@ namespace INECassignment
             }
             foreach (var item in sortList)
             {
+                //Printing out the result
                 Console.WriteLine(item);
 
             }
